@@ -14,7 +14,7 @@
 	</div>
 	<div>
 		{% for item in site.data.navigation %}
-		<a href="{{ item.link }}" class="menu">{{ item.name }}</a>
+		<a href="{{ site.url }}{{ site.baseurl }}{{ item.link }}" class="menu">{{ item.name }}</a>
 		{% endfor %}
 	</div>
 	<footer class="cellC-home">
