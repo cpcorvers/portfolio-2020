@@ -5,7 +5,7 @@
 
 <body class="container">
 	<div class="cells cellA">
-		<a href="{{ site.baseurl }}{{ site.url }}" class="brand"> {{ site.title }}
+		<a href="{{ site.url }}{{ site.baseurl }}" class="brand"> {{ site.title }}
 			<br>
 			<p class="footer">Transforming perspectives as craftsmen</p>
 		</a>
@@ -14,7 +14,7 @@
 			<div class="drop-menu-content">
 				{% for item in site.data.navigation %}
 				<!-- <a href="{{ item.link }}" {% if page.url == item.link %} class="drop-menu-current" {% else %} class="drop-menu-item" {% endif %}>{{ item.name }}</a> -->
-				<a href="{{ site.baseurl }}{{ item.link }}" class="drop-menu-item">{{ item.name }}</a>
+				<a href="{{ site.url }}{{ site.baseurl }}{{ item.link }}" class="drop-menu-item">{{ item.name }}</a>
 				{% endfor %}
 			</div>
 		</div>
