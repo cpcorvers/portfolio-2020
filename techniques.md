@@ -5,7 +5,7 @@ permalink: /techniques/
 ---
 # Techniques
 <!-- <img src="/assets/images/bureauPeter.jpg" alt="" class="img-centered" style="width:85%; "> -->
-![](/assets/images/bureauPeter.jpg "Peter's desk")
+![](../assets/images/bureauPeter.jpg "Peter's desk")
 
 <br>
 "Techniques as a cultural issue rather than as a mindless procedure" (Sennett, 2008, p.8). Technique is misunderstood as a repetition of events in a prescribed way, still for the sake of this portfolio I will take this kind of techniques into consideration and only mention briefly the "technique for conducting a particular way of life" (Sennett, 2008, p.8) for this higher form of technique is in a way an 'art of living' and still under construction. I could argue for now that my way of living is more and more in harmony with Nature by practicing Yoga, doing my duty and acting morally right as elaborated in my FMP (Sri Swami Sivananda, 2000; Anidjar & Derrida, 2002) but with Derrida I like to postpone the decision and stay in the aporia of development as craftsmen.
@@ -21,6 +21,6 @@ It support the translation of thoughts, ideas and concepts so users, providers, 
 These techniques are practiced during the study and through my startup [De Vakmakerij](https://www.devakmakerij.nl) with workshops, case-support and training with professionals.
 
 # Workshops
-![](/assets/images/02.jpg "Peter speaking")
+![](../assets/images/02.jpg "Peter speaking")
 
 Education and training are essential in the transformation of systems, especially for the professionals who facilitate or execute change on wicked problems in the variety of complex environments. I contribute on severail topics related to transformation practices since 2015 by moderating different workshops and exhibitions through which professionals created awareness on specific cases and experienced different design concepts, techniques and tools. Hereafter an overview on some of the events I had the privelege to contribute to.
