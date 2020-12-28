@@ -22,7 +22,7 @@ title: CP.CORVERS
 email: cp.corvers@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is cp.corvers portfolio on my personal acount.
-baseurl: "/portfolio-2020" # the subpath of your site, e.g. /blog
+# baseurl: "/portfolio-2020" # the subpath of your site, e.g. /blog
 # url: "https://cpcorvers.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 url: "https://www.cpcorvers.nl" # the base hostname & protocol for your site, e.g. http://example.com
@@ -32,7 +32,7 @@ twitter_username: cpcorvers
 github_username:  cpcorvers
 
 # pathtoimages: https://cpcorvers.github.io/portfolio-2020/assets/images
-pathtoimages: ../assets/images
+pathtoimages: /assets/images
 # Build settings
 # theme: minima
 plugins:
