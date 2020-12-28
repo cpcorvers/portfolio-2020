@@ -25,13 +25,13 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/portfolio-2020" # the subpath of your site, e.g. /blog
 # url: "https://127.0.0.1:4000" # the base hostname & protocol for your site, e.g. http://example.com
 # url: "https://www.cpcorvers.nl" # the base hostname & protocol for your site, e.g. http://example.com
-url: "cpcorvers.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://cpcorvers.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # permalink: /:title
 
 twitter_username: cpcorvers
 github_username:  cpcorvers
 
-pathtoimages: /assets/images/
+pathtoimages: {{ site.baseurl }}/assets/images/
 # Build settings
 # theme: minima
 plugins:
