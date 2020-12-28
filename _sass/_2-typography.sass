@@ -1,0 +1,169 @@
+h1, h2, h3
+  font:
+   family: $myfont-head
+   size: $fontsize-head
+   weight: 700
+  text:
+   // color: $mycolor-1
+   transform: uppercase
+   align: center
+  color: $mycolor-5
+
+h1.brand
+  color: $mycolor-1
+  font:
+    weight: 100
+
+h2
+  font:
+   size: $fontsize-head-medium
+   variant: normal
+  margin-top: 10px
+
+  // .case on titel, date and author on the post site.
+  &.case
+    margin: 0 5px
+    color: $mycolor-1
+    // text-align: left
+    weight: 300
+    text-align: center
+
+h3
+  font:
+   size: $fontsize-head-small
+   variant: normal
+  margin:
+    top: inherit
+    bottom: 0 //5px
+
+h6
+  font:
+   size: $fontsize-body-small
+   weight: 400
+   family: $myfont-head
+  text:
+   // transform: uppercase
+   align: center
+  color: $mycolor-5
+  margin: 0 2px 0 5px
+
+li
+  padding: 10px
+  border: 1px solid
+  //$mycolor-5
+  margin: 10px
+
+ul
+  list-style-type: none
+  padding: 0
+
+a
+  text:
+    decoration: none
+    // color: $mycolor-2
+  color: $mycolor-1
+  margin: 0
+  font:
+    family: $myfont-body, -apple-system
+    stretch: condensed
+  background:
+    repeat: no-repeat
+    stretch: condensed
+
+  &:hover
+    // background-color: $mycolor-5
+    color: $mycolor-5
+
+  // &.workshop
+  //   color: $mycolor-5
+  //   text-decoration: underline
+
+    &:hover
+      color: $mycolor-hover
+
+  &.brand
+      @extend h1
+      color: $mycolor-1
+      font:
+        weight: 100
+      padding-left: $padding
+
+      &:hover
+        font:
+          weight: 500
+        color: $mycolor-2
+
+  &.portfolio
+    font:
+     size: $fontsize-body-small
+     weight: 400
+     family: $myfont-head
+    text:
+     // transform: uppercase
+     align: center
+    color: $mycolor-5
+    // margin: 0 2px 0 5px
+
+  &.portfolio:hover
+    color: $mycolor-3
+
+// .case-text
+//   margin: 0
+//   color: $mycolor-1
+//   line-height: normal
+//
+// .case-headline
+//   margin:
+//     top: 15px
+//     bottom: 5px
+
+p
+  margin: 0 5px
+  font:
+    family: $myfont-body
+    size: $fontsize-body
+  // padding: 0 $halfpadding
+  text-align: left
+
+  &.small
+    font-size: $fontsize-body-small
+    margin: 0
+    color: $mycolor-5
+
+  &.case-small
+    font-size: $fontsize-body-medium
+    color: $mycolor-1
+    text-align: center
+
+  // &.workshop
+  //   text-align: left
+  //   margin: 0
+  //   font-size: $fontsize-body-medium
+
+  &.testimonial
+    text-align: center
+    margin: $testimonial-margin
+    font-size: $fontsize-body-medium
+    width: 60vw
+    max-width: 500px
+
+  &.testimonial-small
+    font-size: $fontsize-body-small
+    margin: 0 $testimonial-margin $testimonial-margin $testimonial-margin
+    color: $mycolor-5
+
+.footer
+  font:
+    family: $myfont-head
+    size: $fontsize-body-small
+  color: $mycolor-1
+  text-align: center
+
+// .workshop
+//   text-align: left
+//   margin: 0
+//   font-size: $fontsize-body-medium
+
+@media only screen and (min-width: $media-width-desktop)
+  a.portfolio:hover
+    color: $mycolor-2

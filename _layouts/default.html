@@ -1,0 +1,33 @@
+<!-- default.html -->
+<!doctype html>
+<html class="window-container" lang="{{ lang }}">
+{% include head.html %}
+
+<body class="container">
+	<div class="cells cellA">
+		<a href="{{ site.url }}" class="brand"> {{ site.title }} </a>
+		<div class="drop-menu">
+			<input name="toggle" type="checkbox" />
+			<div class="drop-menu-content">
+				{% for item in site.data.navigation %}
+				<a href="{{ item.link }}" {% if page.url == item.link %} class="drop-menu-current" {% else %} class="drop-menu-item" {% endif %}>{{ item.name }}</a>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="line-menu">
+			{% for item in site.data.navigation %}
+			<a href="{{ item.link }}" class="menu">{{ item.name }}</a>
+			{% endfor %}
+		</div>
+	</div>
+	<!-- <div class="cellB2"> -->
+		<div class="cells cellB ">
+			{{ content }}
+		</div>
+	<!-- </div> -->
+	<footer class="cells cellC">
+		{% include footer.html %}
+	</footer>
+</body>
+
+</html>

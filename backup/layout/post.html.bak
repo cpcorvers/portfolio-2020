@@ -1,0 +1,43 @@
+---
+layout: default
+---
+{% for post in site.posts offset:0 limit:1 %}
+<div class="case-container">
+
+	<div class="case-cells case-cellA" style="background-image:url({{ site.pathtoimages }}{{ page.image }})">
+		<!-- <img src="{{ site.url }}/assets/images/{{ page.image }}" alt="image not supported" class="case-image"> -->
+		<!-- <h1>{{ page.title }}</h1>
+		<!-- <p>{{ page.date | date_to_string }} - {{ page.author }}</p> -->
+		<!-- <p>{{ page.date | date_to_string }}</p>
+		{% assign author = site.authors | where: 'short_name', page.author | first %}
+		{% if author %}<a href="{{ author.url }}"><p>{{ author.name }}</p></a> {% endif %} -->
+	</div>
+
+	<div class="case-cells case-cellB case-content">
+		<div class="case-headline">
+			{% if page.title %}
+			<!-- <h1 class="case-text">{{ page.title }}</h1> -->
+			<h2 class="case-text">{{ page.title }}</h2>
+			<!-- <h2>{{ page.title }}</h2> -->
+			{% endif %}
+
+			{% assign date = page.date | date_to_string %}
+			{% if date %}
+			<p class="case-text">{{ date }}</p>
+			<!-- <p>{{ date }}</p> -->
+			{% endif %}
+
+			{% assign author = site.authors | where: 'short_name', page.author | first %}
+			{% if author %}
+			<a href="{{ author.url }}">
+				<!-- <p>{{ author.name }}</p> -->
+				<p class="case-text">{{ author.name }}</p>
+			</a>
+			{% endif %}
+		</div>
+
+		{{ content }}
+	</div>
+		<a href="{{ site.url }}/work" class="button"> BACK </a>
+</div>
+{% endfor %}

@@ -1,0 +1,118 @@
+// navigation-rewritten
+.menu
+  background-color: $mycolor-4
+  // border-color: $mycolor-6
+  color: $mycolor-2
+  font:
+    family: $myfont-head
+    weight: 400
+  letter-spacing: 1px
+  text-transform: uppercase
+  transition: all ease .35s
+  -moz-transition: all ease .35s
+  -webkit-transition: all ease .35s
+
+.menu-item
+  
+
+  &:hover
+    color: $mycolor-1
+
+.menu-title
+    font-family: $myfont-brand
+
+#menu-links
+  display: block
+
+.menu-icon
+  background-color: $mycolor-1
+  color: $mycolor-4
+  // height: $menu-height
+  // width: $menu-width
+  border:
+    radius: 2px
+  padding: 5px
+  font-size: 1.5rem
+// .navbar-brand
+//   /* font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive */
+//   font-family: $myfont-brand
+//   color: $mycolor-1
+//
+// &:hover, &:focus, &:active
+//   color: $mycolor-2
+
+.navbar-collapse
+//   border-color: $mycolor-6
+//
+//
+// .navbar-toggle
+//   border-color: $mycolor-1
+//   background-color: $mycolor-1
+//
+//
+// .navbar-toggle .icon-bar
+//   background-color: $mycolor-2
+//
+//
+// .navbar-toggle:hover,
+// .navbar-toggle:focus
+//   background-color: $mycolor-1
+//
+//
+// .nav li a
+//   text-transform: uppercase
+//
+//   font-family: $mycolor-1
+//   font-weight: 400
+//   letter-spacing: 1px
+//   color: $mycolor-2
+//   -webkit-transition: all ease .35s
+//   -moz-transition: all ease .35s
+//   transition: all ease .35s
+//
+//
+// .nav li a:hover, .nav li a:focus
+//   outline: 0
+//   color: $mycolor-1
+//
+//
+// .navbar-nav>.active>a
+//   border-radius: 0
+//   color: $mycolor-2
+//   background-color: $mycolor-1
+//
+//
+// .navbar-nav>.active>a:hover,
+// .navbar-nav>.active>a:focus
+//   color: $mycolor-2
+//   background-color: $mycolor-3
+//
+//
+@media(min-width:$media-min-width)
+  .menu
+    padding: 25px 0
+    border: 0
+    background-color: transparent
+    -webkit-transition: padding .3s
+    -moz-transition: padding .3s
+    transition: padding .3s
+
+
+  .menu .navbar-brand
+    font-size: 2em
+    -webkit-transition: all .3s
+    -moz-transition: all .3s
+    transition: all .3s
+
+
+  .menu .navbar-nav>.active>a
+    border-radius: 3px
+
+
+  .menu.navbar-shrink
+    padding: 10px 0
+    background-color: $mycolor-4
+
+
+  .menu.navbar-shrink .navbar-brand
+    font-size: 1.5em

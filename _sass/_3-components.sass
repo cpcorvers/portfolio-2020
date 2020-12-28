@@ -1,0 +1,108 @@
+
+
+.thumbnail
+  // size: $thumbnail-width $thumbnail-length
+  color: $mycolor-5
+
+.button
+  // display: block
+  // min-width: $thumbnail-width
+  text-align: center
+  font:
+   family: $myfont-head
+   size: 18px
+  padding: 5px
+  background:
+    color: $mycolor-6
+  border-radius: 2px
+  margin: 10px
+
+.button:hover
+  background:
+    color: $mycolor-hover
+
+.img-centered, img, .img-portfolio-thumb
+  margin: $image-margin auto 0 auto
+  display: block
+  // padding: 0 $negative-image-margin
+  width: 100%
+  height: auto
+  text-align: center
+
+.img-portfolio-thumb
+  margin: 0
+  // border: 3px solid $mycolor-1
+  max-width: 98%
+  padding: 2px 2px 0 2px
+
+// .img-workshop-thumb
+//   @extend .img-portfolio-thumb
+//   border-radius: 50%
+//   height: $thumbnail-workshop
+//   width: $thumbnail-workshop
+//   border: 3px solid $mycolor-1
+//   float: left
+//   margin: 0 10px 0 5px
+//   padding: 0
+
+.img-about-thumb
+  @extend .img-portfolio-thumb
+  height: $thumbnail-about
+  width: $thumbnail-about
+  margin: 10px 0
+  @extend .img-portfolio-thumb
+  border-radius: 50%
+  float: left
+  padding: 0
+
+@media only screen and (min-width: $media-width-tablet)
+  .img-centered, img, .img-portfolio-thumb
+    // margin: $image-margin auto 0 auto
+    // display: block
+    // padding: 0 $negative-image-margin
+    width: 70%
+    height: auto
+    // text-align: center
+
+.img-about-thumb
+  height: $thumbnail-height
+  width: $thumbnail-height
+  // margin: 10px 0
+
+@media only screen and (min-width: $media-width-desktop)
+  .img-centered, img, .img-portfolio-thumb
+    // margin: $image-margin auto 0 auto
+    // display: block
+    // padding: 0 $negative-image-margin
+    width: 70%
+    height: auto
+    // text-align: center
+
+.img-about-thumb
+  height: $thumbnail-height
+  width: $thumbnail-height
+  // margin: 10px 0
+
+.img-portfolio-thumb
+  // margin: 0
+  // border: 3px solid $mycolor-1
+  // max-width: 98%
+  // padding: 2px 2px 0 2px
+  // margin: $image-margin auto 0 auto
+  // display: block
+  // padding: 0 $negative-image-margin
+  width: 100%
+  // height: auto
+  // text-align: center
+
+  // .img-workshop-thumb
+  //   // @extend .img-portfolio-thumb
+  //   // border-radius: 50%
+  //   // height: $thumbnail-workshop
+  //   // width: $thumbnail-workshop
+  //   // border: 3px solid $mycolor-1
+  //   // float: left
+  //   // margin: 0 10px 0 5px
+  //   // padding: 0
+  //   height: $thumbnail-height
+  //   width: $thumbnail-height

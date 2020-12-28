@@ -1,0 +1,43 @@
+---
+layout: default
+title: Workportfolio
+permalink: /workportfolio/
+---
+<div class="cellB-portfolio">
+
+  {% for post in site.posts %}
+  <div class="portfolio-cell">
+    <!-- <div class="portfolio-cell" style="background-image:url({{ site.pathtoimages }}{{ post.thumbnail }})"> -->
+    <a href="{{ post.url }}" class="portfolio">
+      <div class="portfolio-cell-link">
+
+        <img class="img-portfolio-thumb" src="{{ site.pathtoimages }}{{ post.thumbnail }}" alt="">
+        {{ post.title }}
+      </div>
+
+    </a>
+  </div>
+  {% endfor %}
+
+  {% for workshop in site.data.workshops %}
+  <div class="portfolio-cell">
+    <!-- <div class="portfolio-cell" style="background-image:url({{ site.pathtoimages }}{{ post.thumbnail }})"> -->
+    <a href="{{ post.url }}" class="portfolio">
+      <div class="portfolio-cell-link">
+
+        <img class="img-portfolio-thumb" src="{{ site.pathtoimages }}{{ workshop.image }}" alt="">
+
+        <h3 class="workshop">{{ workshop.date }}</h3>
+
+        <p class="workshop">{{ workshop.title }}</p>
+
+        <p class="small">{{ workshop.clients }}</p>
+
+      </div>
+
+    </a>
+  </div>
+  {% endfor %}
+
+
+</div>

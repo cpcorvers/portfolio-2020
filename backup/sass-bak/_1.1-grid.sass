@@ -1,0 +1,96 @@
+// _grid.sass
+
+.window-container
+  margin: 0
+  width: 100vw
+  min-height: 100vh
+  overflow-x: hidden
+  overflow-y: scroll
+
+.container
+  display: flex
+  justify-content: space-between
+  align-items: center
+  flex-direction: column
+  width: 100%
+  min-height: 100vh
+  margin: 0
+  background-color: $mycolor-6
+
+.cells
+  // display: flex
+  // justify-content: space-between
+  text-align: center
+  line-height: 1.5
+  // padding: $padding
+  width: 100%
+
+.cellA
+  align-items: center
+  background:
+    // size: cover
+    position: center top
+    repeat: no-repeat
+    image: $myimage-bg
+  padding: $padding
+  justify-content: space-between
+  min-height: $nav-height
+  max-width: 98%
+  flex-direction: row
+  display: flex
+  position: sticky
+  top: 0
+
+.cellB
+  width: 100%
+  // margin-top: $nav-height
+  background-color: $mycolor-2
+  display: flex
+  flex-direction: column
+  // flex-flow: row wrap
+  // grid-column: 1 / span 3
+  // grid-row: 2
+  // display: inline
+  // width: $content-width-small
+
+.cellB-portfolio
+  display: flex
+  flex-flow: row wrap
+  justify-content: space-evenly
+  width: 100%
+
+.cellB-workshops
+  display: flex
+  flex-flow: column
+  justify-content: space-evenly
+  width: 100%
+
+.cellC
+    justify-content: center
+    margin: 2px
+
+    // grid-column: 1 / span 3
+    // grid-row: 3
+    // text:
+    //   align: right
+    // font:
+    //   color: $mycolor-5
+
+
+// @media(min-width: $media-min-width)
+//   .window-container
+//     width: $myscreenwidth
+//     background:
+//      size: auto
+//      image: $myimage-bg
+//     margin: auto
+//
+//   .cellA1, .cellA2
+//     // grid-row: 1
+//     align-items: center
+//     background:
+//       color: $mycolor-4
+//       image: none
+//
+//   .grid-cells
+//     padding: $padding

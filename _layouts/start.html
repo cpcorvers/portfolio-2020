@@ -1,0 +1,39 @@
+<!doctype html>
+<html class="window-container">
+
+{% include head.html %}
+
+<body class="grid-container">
+
+	<head>
+
+		<nav class="grid-cells cellA1">
+
+			{% include navigation.html %}
+
+		</nav>
+		<div class="grid-cells cellA2">
+
+			<a href="{{ site.url }}" class="brand"> {{ site.title }} </a>
+
+		</div>
+
+	</head>
+
+
+	<main class="grid-cells cellB ">
+
+		{% include tools.md %}
+		{{ content }}
+
+	</main>
+
+	<footer class="grid-cells cellC">
+
+		{% include footer.html %}
+
+	</footer>
+
+</body>
+
+</html>

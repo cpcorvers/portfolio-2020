@@ -1,0 +1,8 @@
+<div class="drop-menu">
+	<input name="toggle" type="checkbox" />
+	<div class="drop-menu-content">
+		{% for item in site.data.navigation %}
+		<a href="{{ item.link }}" {% if page.url == item.link %} class="drop-menu-current" {% else %} class="drop-menu-item" {% endif %}>{{ item.name }}</a>
+		{% endfor %}
+	</div>
+</div>

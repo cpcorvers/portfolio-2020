@@ -1,0 +1,249 @@
+
+.window-container
+  margin: 0
+  width: 100vw
+  min-height: 100vh
+  overflow-x: hidden
+  overflow-y: scroll
+
+.container
+  display: flex
+  justify-content: space-between
+  align-items: center
+  flex-direction: column
+  width: 100%
+  min-height: 100vh
+  margin: 0
+  background-color: $mycolor-8
+
+.cells
+  text-align: center
+  line-height: 1.5
+  width: 100%
+
+.cellA
+  align-items: center
+  background:
+    position: center top
+    repeat: no-repeat
+    image: $myimage-bg
+    size: cover
+  padding: $padding
+  justify-content: space-between
+  min-height: $nav-height
+  max-width: 98%
+  flex-direction: row
+  display: flex
+  position: sticky
+  top: 0
+
+.cellB
+  width: 100%
+  background-color: $mycolor-8
+  display: flex
+  flex-direction: column
+
+.cellB2
+  background:
+    color: $mycolor-transparant
+    // position: center bottom
+    // repeat: no-repeat
+    // image: $myimage-bg
+    // size: cover
+  width: 100%
+  margin: 0 auto
+
+.cellB-portfolio
+  display: flex
+  flex-flow: row wrap
+  justify-content: space-evenly
+  width: 100%
+
+// .cellB-workshops
+//   display: flex
+//   flex-flow: column
+//   justify-content: space-evenly
+//   width: 100%
+
+.cellB-case
+  width: 100%
+  height: auto
+  // flex-flow: column nowrap
+  // color: $mycolor-1
+  background:
+    size: cover
+    position: center center
+    repeat: no-repeat
+
+.cellB-about
+  display: flex
+  flex-flow: column
+  justify-content: space-evenly
+  // align-items: center
+  width: 100%
+  // height: auto
+  min-height: $thumbnail-height-small
+  // margin: 25px 0
+
+.cellC
+    justify-content: center
+    margin: 2px 0 0 0
+
+.cellC-home
+  @extend .cellC
+
+.portfolio-cell.bak
+  background:
+    position: center center
+    repeat: no-repeat
+
+.portfolio-cell
+  width: $thumbnail-width-small
+
+// .workshop-cell
+//   margin: 25px 0
+//   display: flex
+//   justify-content: flex-start
+//   align-items: center
+//   width: 100%
+//   min-height: $thumbnail-height-small
+//   background-color: $mycolor-3
+
+.testimonial-cell
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  background-color: $mycolor-3
+  margin: 25px 0
+  width: 100%
+
+.about-cell
+  display: flex
+  justify-content: center
+  align-items: center
+  width: 100%
+
+.about-cell-labels
+  @extend .about-cell
+  flex-flow: row wrap
+  // justify-content: space-around
+  justify-content: center
+  width: $thumbnail-width-small
+
+
+@media only screen and (min-width: $media-width-tablet)
+  .window-container
+    // width: 80vw
+    // max-width: 1250px
+    // background:
+    //   color: $mycolor-4
+    //   position: center bottom
+    //   repeat: no-repeat
+    //   image: $myimage-bg
+    //   size: cover
+    margin: 0 auto
+
+  .container
+    // display: flex
+    // justify-content: center
+    // align-items: center
+    // flex-direction: column
+    // width: 100%
+    // min-height: 100vh
+    // width: 80vw
+    // max-width: 1250px
+    margin: 0 auto
+    background: none
+
+  .cellA
+    // background:
+      // color: $mycolor-4
+      // size: cover
+      // opacity: 0
+    max-width: 100vw
+
+  .cellB
+    //   width: 70vw
+    background-color: $mycolor-8
+    width: 80vw
+    max-width: 1250px
+
+  .cellC
+    background:
+      position: center bottom
+      repeat: no-repeat
+      image: $myimage-bg
+      size: cover
+
+@media only screen and (min-width: $media-width-desktop)
+  .window-container
+    background:
+      color: $mycolor-8
+      // position: center bottom
+      // repeat: no-repeat
+      // image: $myimage-bg
+      // size: cover
+    margin: 0 auto
+
+  .container
+    margin: 0 auto
+    background: none
+
+  .cellA
+    max-width: 100vw
+
+  .cellB
+    background: none
+    width: 60vw
+    max-width: 1250px
+    margin: 25px auto 25px auto
+    top: $nav-height
+
+  .cellC
+    background:
+      position: center bottom
+      repeat: no-repeat
+      image: $myimage-bg
+      size: cover
+    position: fixed
+    top: 98vh
+
+  .cellC-home
+    background: none
+    padding: 1px
+
+  .cellB-portfolio
+    // display: flex
+    flex-flow: row wrap
+    min-height: 95%
+    // justify-content: space-evenly
+    // width: 100%
+    // width: $thumbnail-height
+
+  .portfolio-cell
+    // width: $thumbnail-width-small
+    max-width: 30%
+    background-color: $mycolor-3
+    margin: 5px
+    min-height: 200px
+
+  .portfolio-cell-link:hover
+    background-color: $mycolor-1
+
+  // .cellB-workshops
+  //   // display: flex
+  //   flex-flow: row wrap
+  //   min-height: 95%
+  //   // justify-content: space-evenly
+  //   // width: 100%
+  //
+  // .workshop-cell
+  //   // margin: 25px 0
+  //   // display: flex
+  //   // justify-content: flex-start
+  //   // align-items: center
+  //   // width: 100%
+  //   // min-height: $thumbnail-height-small
+  //   // background-color: $mycolor-3
+  //   max-width: 30%

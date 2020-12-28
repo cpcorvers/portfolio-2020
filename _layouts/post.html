@@ -1,0 +1,23 @@
+---
+layout: default
+---
+{% for post in site.posts offset:0 limit:1 %}
+
+<img src="{{ site.pathtoimages-work }}{{ page.image }}" alt="image not supported" class="cellB-case">
+
+{% if page.title %}
+<h2 class="case">{{ page.title }}</h2>
+{% endif %}
+
+{% assign date = page.date | date_to_string | date: "%B %Y" %}
+{% if date %}
+<p class="case-small">{{ date }}</p>
+{% endif %}
+
+<div class="case">
+	{{ content }}
+</div>
+
+<a href="{{ site.url }}/work" class="button"> BACK </a>
+
+{% endfor %}

@@ -1,0 +1,15 @@
+---
+layout: default
+title: Testimonials
+permalink: /testimonials/
+---
+<h1>Testimonials</h1>
+<p>Some testimonials of participants, partners and clients....</p>
+
+{% for testimonial in site.data.testimonials %}
+  <div class="testimonial-cell">
+    <!-- <div class="workshop-cellA"> -->
+    <p class="testimonial">{{ testimonial.text }}</p>
+    <p class="testimonial-small">{{ testimonial.client }}</p>
+  </div>
+{% endfor %}
