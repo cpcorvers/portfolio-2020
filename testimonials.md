@@ -1,5 +1,5 @@
 ---
 layout: testimonials
 title: Testimonials
-permalink: /testimonials/
+permalink: /testimonials.html
 ---
