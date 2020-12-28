@@ -26,7 +26,7 @@
   background:
     position: center top
     repeat: no-repeat
-    image: $myimage-bg
+    image: $myimage-bg-top
     size: cover
   padding: $padding
   justify-content: space-between
@@ -101,7 +101,7 @@
   justify-content: center
   width: $thumbnail-width-small
 
-
+// CSS and SASS coded for mobile screens, hereafter the exeptions for wider screens.
 @media only screen and (min-width: $media-width-tablet)
   .window-container
     margin: 0 auto
@@ -127,12 +127,12 @@
     background:
       position: center bottom
       repeat: no-repeat
-      image: $myimage-bg
+      image: $myimage-bg-top
       size: cover
 
   .portfolio-cell
     max-width: 20%
-    background-color: $mycolor-3
+    background-color: none // $mycolor-3
     margin: 5px
 
   .portfolio-cell-link:hover
@@ -147,6 +147,7 @@
   .container
     margin: 0 auto
     background: none
+    justify-content: flex-start
 
   .cellA
     max-width: 100vw
@@ -163,7 +164,7 @@
     background:
       position: center bottom
       repeat: no-repeat
-      image: $myimage-bg
+      image: $myimage-bg-top
       size: cover
     position: fixed
     top: 98vh
@@ -178,9 +179,12 @@
 
   .portfolio-cell
     max-width: 30%
-    background-color: $mycolor-3
+    background-color: none // $mycolor-3
     margin: 5px
     min-height: 200px
+    align-items: center
+    display: flex
+    flex-flow: column
 
   .portfolio-cell-link:hover
     background-color: $mycolor-1

@@ -3,13 +3,17 @@ layout: default
 title: Testimonials
 permalink: /testimonials/
 ---
-<h1>Testimonials</h1>
-<p>Some testimonials of participants, partners and clients....</p>
 
-{% for testimonial in site.data.testimonials %}
-  <div class="testimonial-cell">
+<h1>Testimonials</h1>
+<p class="testimonial">Some testimonials of participants, partners and clients....</p>
+<div class="cellB-portfolio">
+  {% for testimonial in site.data.testimonials %}
+  <div class="portfolio-cell">
+    <!-- <div class="testimonial-cell"> -->
     <!-- <div class="workshop-cellA"> -->
     <p class="testimonial">{{ testimonial.text }}</p>
     <p class="testimonial-small">{{ testimonial.client }}</p>
   </div>
-{% endfor %}
+  {% endfor %}
+
+</div>
