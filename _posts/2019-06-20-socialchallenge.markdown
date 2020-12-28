@@ -9,8 +9,8 @@ date: 2019-06-05
 # user-society: true
 # math-data-computing: false
 # business-entrepreneurship: false
-image: socialchallenge-slide.jpg
-thumbnail: socialchallenge-thumbnail.jpg
+image: /socialchallenge-slide.jpg
+thumbnail: /socialchallenge-thumbnail.jpg
 alt: image-alt
 project-date: January 2018
 client: Municipality Altena<br>Eelco Hovers (representative of Altena)<br>Caroline Hummels (teacher elective)<br>Jorge Alveslino (teacher elective)<br>Alex Rassenberg (fellow student Fontys)<br>Cas Hoen (fellow student Fontys)<br>Felix van de Donk (fellow student TU/e)

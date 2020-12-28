@@ -31,7 +31,8 @@ url: "https://cpcorvers.github.io" # the base hostname & protocol for your site,
 twitter_username: cpcorvers
 github_username:  cpcorvers
 
-pathtoimages: {{ site.baseurl }}/assets/images/
+pathtoimages: https://cpcorvers.github.io/portfolio-2020/assets/images
+# pathtoimages: {{ site.url }}{{ site.baseurl }}/assets/images
 # Build settings
 # theme: minima
 plugins:
@@ -76,12 +77,12 @@ collections:
     output: true
     # permalink: /:collection/:name
     permalink: /work/:title
-  workshops:
-    output: true
-    permalink: /workshops/:title
-  testimonials:
-    output: true
-    permalink: /testimonials/:title
+  # workshops:
+  #   output: true
+  #   permalink: /workshops/:title
+  # testimonials:
+  #   output: true
+  #   permalink: /testimonials/:title
 
 defaults:
   - scope:

@@ -9,8 +9,8 @@ date: 2019-06-07
 # user-society: true
 # math-data-computing: true
 # business-entrepreneurship: false
-image: reportMoralJustice.jpg
-thumbnail: servantofjustice-thumbnail.png
+image: /reportMoralJustice.jpg
+thumbnail: /servantofjustice-thumbnail.png
 alt: Servant of Justice
 documents-name: Paper Servant of justice as craftsmen
 project-date: February 2019

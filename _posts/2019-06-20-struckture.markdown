@@ -9,8 +9,8 @@ date: 2019-06-01
 # user-society: true
 # math-data-computing: true
 # business-entrepreneurship: false
-image: struckture-1.jpg
-thumbnail: struckture-thumbnail.jpg
+image: /struckture-1.jpg
+thumbnail: /struckture-thumbnail.jpg
 alt: image-alt
 project-date: October 2016
 client: Bart Hengelveld (teacher elective)<br>Leonie Copraij (fellow student)<br>Femke Coops (fellow student)<br>Natanya Cornet (fellow student)

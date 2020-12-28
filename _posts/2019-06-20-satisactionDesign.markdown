@@ -10,10 +10,10 @@ date: 2019-06-08
 # user-society: true
 # math-data-computing: false
 # business-entrepreneurship: true
-image:  satisaction-designslide.png
-thumbnail: satisaction-design-thumbnail.png
+image:  /satisaction-designslide.png
+thumbnail: /satisaction-design-thumbnail.png
 alt: image-alt
-documents: 20180303-report-Satisaction-v2.1.pdf
+documents: /20180303-report-Satisaction-v2.1.pdf
 documents-name: M11 report v2.1
 project-date: March 2018
 client: <a href="https://www.brabant.nl/subsites/sociale-veerkracht.aspx" target="_blank"> Provincie Noord-Brabant</a><br><a href="http://www.academievoorbeeldvorming.nl/" target="_blank">Academie voor Beeldvorming</a><br>Renee Noortman (fellow student)<br>Vera van Otterdijk (fellow student)<br>Myrte van Dongen (fellow student)

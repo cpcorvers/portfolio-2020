@@ -9,10 +9,10 @@ date: 2019-06-06
 # user-society: true
 # math-data-computing: true
 # business-entrepreneurship: true
-image: reportMoralJustice.jpg
-thumbnail: organisation-thumbnail.jpg
+image: /reportMoralJustice.jpg
+thumbnail: /organisation-thumbnail.jpg
 alt: image-alt
-documents: 20180625-essay-organisaties-uvh-cpcorvers_FINAL.pdf
+documents: /20180625-essay-organisaties-uvh-cpcorvers_FINAL.pdf
 documents-name: Essay organisations in dutch
 project-date: June 2018
 client: University of Humanistic studies<br>Ruud Kaulingfreks (teacher elective)

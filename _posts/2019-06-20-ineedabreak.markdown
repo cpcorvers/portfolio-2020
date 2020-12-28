@@ -9,8 +9,8 @@ date: 2019-06-03
 # user-society: true
 # math-data-computing: true
 # business-entrepreneurship: false
-image: ineedabreak-slide.png
-thumbnail: ineedabreak-thumbnail.jpg
+image: /ineedabreak-slide.png
+thumbnail: /ineedabreak-thumbnail.jpg
 alt:
 project-date: March 2018
 client: Carl Megens (teacher elective)<br>Willemijn Mattheij (fellow student)<br> Jacco Bleyen (fellow student)<br>Joes Janmaat (fellow student)<br>Hans Brombacher (fellow student)<br>Roel Verschuren (fellow student)<br>Mari&euml;lle Jonkers (fellow student)<br>Milou Bruinenberg (fellow student)<br>Lisa Smits(fellow student)<br>Eleonora Zanus (fellow student)

@@ -8,7 +8,7 @@ permalink: /workportfolio/
   {% for post in site.posts %}
   <div class="portfolio-cell">
     <!-- <div class="portfolio-cell" style="background-image:url({{ site.pathtoimages }}{{ post.thumbnail }})"> -->
-    <a href="{{ post.url }}" class="portfolio">
+    <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" class="portfolio">
       <div class="portfolio-cell-link">
 
         <img class="img-portfolio-thumb" src="{{ site.pathtoimages }}{{ post.thumbnail }}" alt="">
@@ -21,7 +21,7 @@ permalink: /workportfolio/
 
   {% for workshop in site.data.workshops %}
   <div class="portfolio-cell">
-    <a href="{{ post.url }}" class="portfolio">
+    <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" class="portfolio">
       <div class="portfolio-cell-link">
 
         <img class="img-portfolio-thumb" src="{{ site.pathtoimages }}{{ workshop.image }}" alt="">

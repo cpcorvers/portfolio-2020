@@ -11,8 +11,8 @@ date: 2019-06-04
 # user-society: true
 # math-data-computing: false
 # business-entrepreneurship: true
-image: entrepreneurship-slide.png
-thumbnail: entrepreneurship-thumbnail.jpg
+image: /entrepreneurship-slide.png
+thumbnail: /entrepreneurship-thumbnail.jpg
 alt: image-alt
 project-date: January 2017
 client: Philips<br>Maarten Rincker (elective teacher)<br>Jelle Tuinhout (elective teacher)<br>Annemiek Veldhuis (fellow student)<br>Luc Broekman (fellow student)<br>Elise Claassen (fellow student)<br>Bianca Gorini (fellow student)<br>Tobias Hoffmann (fellow student)

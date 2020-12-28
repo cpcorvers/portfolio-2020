@@ -10,10 +10,10 @@ date: 2019-06-10
 # user-society: true
 # math-data-computing: true
 # business-entrepreneurship: true
-image: otherseyes-handpicture2.jpg
-thumbnail: otherseyes-thumbnail.jpg
+image: /otherseyes-handpicture2.jpg
+thumbnail: /otherseyes-thumbnail.jpg
 alt: OTHERs EYEs
-documents: 20190613-FMP-Report-v1.0.pdf
+documents: /20190613-FMP-Report-v1.0.pdf
 documents-name: FMP report cpcorvers v1
 project-date: July 2019
 client: Zorg- en Veiligheidshuis
