@@ -43,11 +43,6 @@
 
 .drop-menu:hover .drop-menu-content
 
-// .drop-menu:focus .drop-menu-content
-//   display: block
-//    background:
-//      color: $mycolor-4
-
 .drop-menu-item
   text:
     decoration: none
@@ -76,17 +71,18 @@
 .line-menu
   display: none
 
-// CSS and SASS coded for mobile screens, hereafter the exeptions for wider screens.
+// CSS and SASS coded for mobile screens, hereafter the exeptions for wider screens. The menu will change from a dropmenu to a line menu when when a tablet had a screen sider then de maximum context width (as defiened in _0-variables.sass)
 @media only screen and (min-width: $media-width-tablet)
-  .drop-menu, .drop-menu input
-    display: none
+  @media only screen and (min-width: $content-width-max)
+    .drop-menu, .drop-menu input
+      display: none
 
-  .drop-menu-content
-    display: none
+    .drop-menu-content
+      display: none
 
-  .line-menu
-    display: flex
-    flex-direction: row
+    .line-menu
+      display: flex
+      flex-direction: row
 
 @media only screen and (min-width: $media-width-desktop)
   .drop-menu, .drop-menu input

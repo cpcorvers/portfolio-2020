@@ -113,10 +113,11 @@ p
     text-align: center
     margin: $testimonial-margin
     font-size: $fontsize-body-medium
-    width: 60vw
+    // width: 60vw
     max-width: 500px
 
   &.testimonial-small
+    text-align: center
     font-size: $fontsize-body-small
     margin: 0 $testimonial-margin $testimonial-margin $testimonial-margin
     color: $mycolor-5
@@ -129,9 +130,9 @@ p
   text-align: center
 
 // CSS and SASS coded for mobile screens, hereafter the exeptions for wider screens.
-@media only screen and (min-width: $media-width-desktop)
+@media only screen and (min-width: $media-width-tablet)
   a.portfolio:hover
-    color: $mycolor-2
+    color: inherit
 
   p.testimonial
     width: 70%
