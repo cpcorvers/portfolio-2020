@@ -21,6 +21,5 @@ It support the translation of thoughts, ideas and concepts so users, providers, 
 These techniques are practiced during the study and through my startup [De Vakmakerij](https://www.devakmakerij.nl) with workshops, case-support and training with professionals.
 
 # Workshops
-![](../assets/images/02.jpg "Peter speaking")
-
+![](../assets/images/02.jpg "Peter speaking"){:.img-thumb}
 Education and training are essential in the transformation of systems, especially for the professionals who facilitate or execute change on wicked problems in the variety of complex environments. I contribute on severail topics related to transformation practices since 2015 by moderating different workshops and exhibitions through which professionals created awareness on specific cases and experienced different design concepts, techniques and tools. Hereafter an overview on some of the events I had the privelege to contribute to.
