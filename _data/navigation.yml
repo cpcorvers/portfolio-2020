@@ -1,7 +1,7 @@
 # - name: Home
 #   link: /
-# - name: Vision
-#   link: /vision/
+- name: Vision
+  link: /vision/
 - name: Work
   link: /workportfolio/
 # - name: Workshops
