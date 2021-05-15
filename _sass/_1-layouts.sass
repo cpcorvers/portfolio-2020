@@ -63,6 +63,12 @@
     position: center center
     repeat: no-repeat
 
+.cellB-workshop
+  display: flex
+  flex-flow: column wrap
+  justify-content: space-evenly
+  width: 100%
+
 .cellB-about
   display: flex
   flex-flow: column
@@ -89,6 +95,10 @@
   display: flex
   flex-flow: column
   justify-content: center
+
+.workshop-cell
+  @extend .testimonial-cell
+  flex-flow: column
 
 .about-cell
   display: flex
