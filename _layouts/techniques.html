@@ -48,13 +48,15 @@ permalink: /techniques/
     </div>
         <!-- {{ workshop.role }} -->
     <div class="workshop-cell-text">
-      {{ workshop.date }}
+        <p class="testimonial-small">{{ workshop.date }}</p>
       <br><br>
       <br><br>
-      {{ workshop.title }}
+        <p class="testimonial">{{ workshop.title }}</p>
       <br><br>
       <br><br>
-      {{ workshop.clients }}
+        {% for client in site.data.workshops.clients %}
+        <p class="testimonial">{{ client }}</p>
+        {% endfor %}
     </div>
   </div>
   {% endfor %}

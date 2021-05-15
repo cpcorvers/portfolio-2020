@@ -97,11 +97,12 @@
 .workshop-cell
   @extend .testimonial-cell
   flex-flow: row
+  min-height: none
 
 .workshop-cell-img
   @extend .workshop-cell
   width: 30%
-  
+
 .workshop-cell-text
   @extend .workshop-cell
   font:
@@ -109,7 +110,7 @@
     weight: 400
     family: $myfont-head
   text:
-    align: center
+    align: left
   color: $mycolor-5
   align-items: left
   flex-flow: column
