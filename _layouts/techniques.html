@@ -44,20 +44,15 @@ permalink: /techniques/
   {% for workshop in site.data.workshops %}
   <div class="workshop-cell">
     <!-- <a href="{{ site.url }}{{ site.baseurl }}/{{ workshops.url }}" class="portfolio"> -->
-      <!-- <div class="portfolio-cell-link"> -->
         <img class="img-portfolio-thumb" src="{{ site.pathtoimages }}{{ workshop.image }}" alt="">
         <!-- {{ workshop.role }} -->
-  <div class="">
-    {{ workshop.date }}
-  </div>
-  <br><br>
-  <div class="">
-    {{ workshop.title }}
-  </div>
-  <br><br>
-  <div class="">
-    {{ workshop.clients }}
-  </div>      <!-- </div> -->
+        <div class="workshop-cell-text">
+          {{ workshop.date }}
+          <br><br>
+          {{ workshop.title }}
+          <br><br>
+          {{ workshop.clients }}
+        </div>      <!-- </div> -->
     <!-- </a> -->
   </div>
   {% endfor %}

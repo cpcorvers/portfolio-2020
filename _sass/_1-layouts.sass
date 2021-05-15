@@ -64,10 +64,8 @@
     repeat: no-repeat
 
 .cellB-workshop
-  display: flex
+  @extend .cellB-portfolio
   flex-flow: column wrap
-  justify-content: space-evenly
-  width: 100%
 
 .cellB-about
   display: flex
@@ -99,6 +97,9 @@
 .workshop-cell
   @extend .testimonial-cell
   flex-flow: row
+
+.workshop-cell-text
+  @extend .workshop-cell
   font:
     size: $fontsize-body-small
     weight: 400
@@ -106,7 +107,8 @@
   text:
     align: center
   color: $mycolor-5
-
+  align-items: left
+  flex-flow: column
 
 .about-cell
   display: flex
@@ -171,6 +173,9 @@
   .testimonial-cell
     max-width: 30%
 
+  .workshop-cell
+    max-width: none
+
 @media only screen and (min-width: $media-width-desktop)
   .window-container
     background:
@@ -200,3 +205,6 @@
   .testimonial-cell
     max-width: 30%
     min-height: 250px
+
+  .workshop-cell
+    max-width: none
