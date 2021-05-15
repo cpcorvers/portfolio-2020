@@ -40,7 +40,7 @@ permalink: /techniques/
   </p>
 
 </div>
-<div class="cellB.workshop">
+<div class="cellB-workshop">
   {% for workshop in site.data.workshops %}
   <div class="workshop-cell">
     <div class="workshop-cell-img">
@@ -55,7 +55,7 @@ permalink: /techniques/
       <br><br>
       <br><br>
         {% for client in site.data.workshops.clients %}
-        <p class="testimonial">{{ client }}</p>
+        <p class="testimonial">{{ client[0] }}</p>
         {% endfor %}
     </div>
   </div>
