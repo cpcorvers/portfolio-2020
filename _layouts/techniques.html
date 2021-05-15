@@ -25,7 +25,7 @@ permalink: /techniques/
 <!-- <div class="cellB-about"> -->
 <div class="cellB-portfolio">
 
-  <h1 id="craftsmen">My craftsmenship</h1>
+  <h1 id="craftsmen">Workshops</h1>
   <!-- <p>
     <img class="img-thumb" src="/assets/images/sennetsHand.jpeg" alt="" />
     Craftsmenship is all about the dedicated and engaged professional who masters tools and techniques for the sake of the work on its own (Sennet, 2008). This portfolio-layout is crafted along the qualities to give a glance of my intended
@@ -36,23 +36,19 @@ permalink: /techniques/
   </p> -->
   <p>
     <!-- <img class="img-thumb" src="/assets/images/02.jpeg" alt="Peter speaking" /> -->
-    <br><br>
     Education and training are essential in the transformation of systems, especially for the professionals who facilitate or execute change on wicked problems in the variety of complex environments. I contribute on several topics related to transformation practices since 2015 by moderating different workshops and exhibitions through which professionals created awareness on specific cases and experienced different design concepts, techniques and tools. Hereafter an overview on some of the events I had the privelege to contribute to.
   </p>
   {% for workshop in site.data.workshops %}
   <div class="portfolio-cell">
-    <a href="{{ site.url }}{{ site.baseurl }}/workportfolio" class="portfolio">
+    <a href="{{ site.url }}{{ site.baseurl }}/{{ workshops.url }}" class="portfolio">
       <div class="portfolio-cell-link">
-
         <img class="img-portfolio-thumb" src="{{ site.pathtoimages }}{{ workshop.image }}" alt="">
         {{ workshop.role }}
         {{ workshop.date }}
         <!-- <h3 class="workshop">{{ workshop.date }}</h3>
         <p class="workshop">{{ workshop.title }}</p>
         <p class="small">{{ workshop.clients }}</p> -->
-
       </div>
-
     </a>
   </div>
   {% endfor %}

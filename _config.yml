@@ -77,9 +77,9 @@ collections:
     output: true
     # permalink: /:collection/:name
     permalink: /work/:title
-  # workshops:
-  #   output: true
-  #   permalink: /workshops/:title
+  workshops:
+    output: true
+    permalink: /workshops/:title
   # testimonials:
   #   output: true
   #   permalink: /testimonials/:title
@@ -95,11 +95,11 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-  # - scope:
-  #     path: ""
-  #     type: "workshops"
-  #   values:
-  #     layout: "default"
+  - scope:
+      path: ""
+      type: "workshops"
+    values:
+      layout: "post"
   # - scope:
   #     path: ""
   #     type: "testimonials"

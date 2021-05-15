@@ -6,17 +6,14 @@ permalink: /workportfolio/
 <h1>Workportfolio</h1>
 <!-- <p class="testimonial">An impression of my projects.</p> -->
 <div class="cellB-portfolio">
-
   {% for post in site.posts %}
   <div class="portfolio-cell">
     <!-- <div class="portfolio-cell" style="background-image:url({{ site.pathtoimages }}{{ post.thumbnail }})"> -->
     <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" class="portfolio">
       <div class="portfolio-cell-link">
-
         <img class="img-portfolio-thumb" src="{{ site.pathtoimages }}{{ post.thumbnail }}" alt="">
         {{ post.title }}
       </div>
-
     </a>
   </div>
   {% endfor %}

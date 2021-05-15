@@ -1,4 +1,15 @@
 # <!--  -->
+
+- role: webinar
+  date: February 2021
+  title: Speaker on facilitating innovation with public sector organisations.
+  clients: MB-All
+  image: /06.jpg
+- role: lecture
+  date: January 2021
+  title: Lecture on design and innovation in the Netherlands Army.
+  clients: Royal Netherlands Army
+  image: /06.jpg
 - role: moderator
   date: June 2019
   title: "Moderator & speaker 'Gezamenlijke Regionale Zorg- en Veiligheidsconferentie: Ervaringen in beeld'."
