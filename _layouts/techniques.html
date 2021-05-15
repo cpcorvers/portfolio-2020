@@ -49,8 +49,10 @@ permalink: /techniques/
         <!-- {{ workshop.role }} -->
     <div class="workshop-cell-text">
         <p class="testimonial-small">{{ workshop.date }}</p>
+        <br><br>
        <p class="clientslist-small">subject:</p>
         <p class="clientslist">{{ workshop.title }}</p>
+        <br><br>
         <p class="clientslist-small">clients:</p>
         {% for item in workshop.clients %}
         <p class="clientslist">{{ item }}</p>
@@ -58,5 +60,4 @@ permalink: /techniques/
     </div>
   </div>
   {% endfor %}
-
 </div>
