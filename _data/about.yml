@@ -17,8 +17,10 @@
 - sort: 8
   label: inventor
 - sort: 9
-  label: mechanical-eningeer
+  label: mechanical-engineer
 - sort: 10
   label: woodworker
 - sort: 11
   label: intrepreneur
+- sort: 12
+  label: coach
