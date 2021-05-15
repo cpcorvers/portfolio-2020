@@ -46,13 +46,18 @@ permalink: /techniques/
     <!-- <a href="{{ site.url }}{{ site.baseurl }}/{{ workshops.url }}" class="portfolio"> -->
       <!-- <div class="portfolio-cell-link"> -->
         <img class="img-portfolio-thumb" src="{{ site.pathtoimages }}{{ workshop.image }}" alt="">
-        {{ workshop.role }}
-        {{ workshop.date }}
-        <br><br>
-        {{ workshop.title }}
-        <br><br>
-        {{ workshop.clients }}
-      <!-- </div> -->
+        <!-- {{ workshop.role }} -->
+  <div class="">
+    {{ workshop.date }}
+  </div>
+  <br><br>
+  <div class="">
+    {{ workshop.title }}
+  </div>
+  <br><br>
+  <div class="">
+    {{ workshop.clients }}
+  </div>      <!-- </div> -->
     <!-- </a> -->
   </div>
   {% endfor %}
