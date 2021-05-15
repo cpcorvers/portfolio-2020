@@ -54,8 +54,8 @@ permalink: /techniques/
         <p class="testimonial">{{ workshop.title }}</p>
       <br><br>
       <br><br>
-        {% for client in site.data.workshops.clients %}
-        <p class="testimonial">{{ client[0] }}</p>
+        {% for item in site.data.workshops.clients %}
+        <p class="testimonial">{{ item }}</p>
         {% endfor %}
     </div>
   </div>
