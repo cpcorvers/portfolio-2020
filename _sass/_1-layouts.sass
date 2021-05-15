@@ -96,12 +96,13 @@
 
 .workshop-cell
   @extend .testimonial-cell
-  flex-flow: row
   min-height: none
+  flex-flow: row
 
 .workshop-cell-img
   @extend .workshop-cell
   width: 30%
+  box-shadow: none
 
 .workshop-cell-text
   @extend .workshop-cell
@@ -114,6 +115,8 @@
   color: $mycolor-5
   align-items: left
   flex-flow: column
+  box-shadow: none
+
 
 .about-cell
   display: flex
@@ -180,6 +183,7 @@
 
   .workshop-cell
     max-width: none
+    min-height: 100px
 
 @media only screen and (min-width: $media-width-desktop)
   .window-container
@@ -213,3 +217,4 @@
 
   .workshop-cell
     max-width: none
+    min-height: 100px

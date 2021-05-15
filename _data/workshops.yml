@@ -3,12 +3,14 @@
 - role: webinar
   date: February 2021
   title: Speaker on facilitating innovation with public sector organisations.
-  clients: MB-All
+  clients:
+    - MB-All
   image: /06.jpg
 - role: lecture
   date: January 2021
   title: Lecture on design and innovation in the Netherlands Army.
-  clients: Royal Netherlands Army
+  clients:
+    - Royal Netherlands Army
   image: /06.jpg
 - role: moderator
   date: June 2019
@@ -22,7 +24,8 @@
 - role: moderator
   date: January 2019
   title: Moderator workshop User journey with Satis-action.
-  clients: Royal Netherlands Army
+  clients:
+    - Royal Netherlands Army
   image: /07.jpg
 - role: workshop
   date: November 2018
@@ -34,30 +37,36 @@
 - role: speaker
   date: September 2018
   title: Moderator & keynote speaker 'Bestuurdersattelier 2018'.
-  clients: Veiligheidshuis Zuid-Holland Zuid
+  clients:
+    - Veiligheidshuis Zuid-Holland Zuid
   image: /04.jpg
 - role: moderator
   date: Augustus 2018
   title: Moderator workshop 'Innovation in the Triple-Helix'.
-  clients: Royal Netherlands Army
+  clients:
+    - Royal Netherlands Army
   image: /06.jpg
 - role: moderator
   date: July 2018
   title: Moderator Satis-action on real life case.
-  clients: Royal Netherlands Army
+  clients:
+    - Royal Netherlands Army
   image: /06.jpg
 - role: moderator
   date: July 2018
   title: Moderator Satis-action on real life case.
-  clients: Veiligheidshuis Zuid-Holland Zuid
+  clients:
+    - eiligheidshuis Zuid-Holland Zuid
   image: /05.jpg
 - role: moderator
   date: December 2017
   title: Moderator workshop 'Value creation for social issues' together with <a class="workshop" href="http://www.academievoorbeeldvorming.nl/">Academie voor Beeldvorming.</a>
-  clients: Provincie Noord-Brabant
+  clients:
+    - Provincie Noord-Brabant
   image: /03.jpg
 - role: facilitator
   date: October 2017
   title: Workshop 'Experience the transformative practices' at the Designhuis Eindhoven.
-  clients: Provincie Noord-Brabant
+  clients:
+    - Provincie Noord-Brabant
   image: /02.jpg
