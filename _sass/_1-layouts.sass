@@ -150,9 +150,9 @@
     margin: 25px auto 25px auto
     top: $nav-height
 
-  .cellB-portfolio
-    flex-flow: row wrap
-    min-height: 95%
+  // .cellB-portfolio
+  //   flex-flow: row wrap
+  //   min-height: 95%
 
   .cellB-workshop
     flex-flow: column wrap
@@ -170,13 +170,14 @@
     padding: 1px
 
   .portfolio-cell
-    max-width: 20%
-    background-color: $mycolor-8
-    margin: 5px
-    box-shadow: 0 0 20px $mycolor-3
-    align-items: center
-    display: flex
-    flex-flow: column
+    max-width: 30%
+    min-height: 200px
+  //   background-color: $mycolor-8
+  //   margin: 5px
+  //   box-shadow: 0 0 20px $mycolor-3
+  //   align-items: center
+  //   display: flex
+  //   flex-flow: column
 
   .portfolio-cell:hover
     box-shadow: 0 0 20px $mycolor-1
@@ -210,6 +211,10 @@
     background: none
     width: 60vw
 
+  .cellB-portfolio
+    align-content: space-between
+    min-height: 70vh
+
   .cellC
     top: 98vh
 
@@ -218,8 +223,8 @@
     padding: 1px
 
   .portfolio-cell
-    max-width: 30%
-    min-height: 200px
+    max-width: 40%
+    min-height: 180px
 
   .testimonial-cell
     max-width: 30%
