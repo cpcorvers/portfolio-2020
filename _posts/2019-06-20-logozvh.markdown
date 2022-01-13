@@ -1,0 +1,22 @@
+---
+category: project
+title: Logo design & marketing concept
+subtitle: Look and feel of Zorg en Veiligheidshuis ZHZ
+auther: peter
+layout: post
+modal-id: 3
+date: 2019-06-01
+image:  /logozvhzhz-mockup.png
+thumbnail: /logozvhzhz-thumbnail.png
+alt: image-alt
+project-date: 2019-10-01
+client:
+  - Veiligheidshuis Zuid-Holland Zuid
+---
+Design of a new logo, marketing concept and communication strategy of the organisation Zorg- en Veiligheidshuis Zuid-Holland Zuid.
+
+<img src="/assets/images/logozvhzhz-storyline.png" class="case-image" alt="" style="width:90%;">
+
+<img src="/assets/images/logozvhzhz.png" class="case-image" alt="">
+
+<a href="https://www.devakmakerij.nl" target="_blank">De Vakmakerij</a> facilitate and support the designprocess of marketing concepts and communication strategies for organisations and projects.

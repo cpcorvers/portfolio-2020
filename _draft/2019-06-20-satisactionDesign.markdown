@@ -1,5 +1,5 @@
 ---
-categroy:
+category:
   - project
   - tools
 title: Design of Satis-action

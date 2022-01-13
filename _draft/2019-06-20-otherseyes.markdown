@@ -1,6 +1,6 @@
 ---
 category: project
-itle: Others Eyes
+title: Others Eyes
 subtitle: Final Master Project
 author: peter
 layout: post
@@ -22,8 +22,8 @@ client: Zorg- en Veiligheidshuis
 ---
 How can design support a moral decision making process of individuals and organisations in specific wicked problem cases?
 
-Others Eyes is a tool designed to explore the different perspectives on a problem. First, one person becomes aware of her/his perspectives through the positioning of characters on the Perception board which create different views on the problem case at hand. Only after this process the perceptions of others can be taken into account. This approach leads to a better understanding and more enriched dialogue between professionals.
+Others Eyes is a method designed to explore the different perspectives on a problem. First, one person becomes aware of her/his perspectives through the positioning of characters on the Perception board which create different views on the problem case at hand. Only after this process the perceptions of others can be taken into account. This approach leads to a better understanding and more enriched dialogue between professionals.
 
 Through the enriched perception of all the participants a more cohesive decision is taken which does right to all who are involved in this case.
 
-Others Eyes supports the leader inside a coalition of collaborating organisations working on wicked problems and supports professionals during moral decision making process within a complex organisational environment.
+The technique of Others Eyes and the tool Perception board can support the leader inside a coalition of collaborating organisations working on wicked problems and can support professionals during moral decision making process within a complex organisational environment.

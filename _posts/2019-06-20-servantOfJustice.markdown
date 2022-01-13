@@ -9,11 +9,11 @@ date: 2019-06-07
 # user-society: true
 # math-data-computing: true
 # business-entrepreneurship: false
-image: /reportMoralJustice.jpg
+image:
 thumbnail: /servantofjustice-thumbnail.png
 alt: Servant of Justice
 documents-name: Paper Servant of justice as craftsmen
-project-date: February 2019
+project-date: 2019-02-01
 client: University of Humanistic studies<br>Ruud Meij (teacher elective)<br>Veiligheidshuis Zuid-Holland Zuid
 # category: [user-society, math-data-computing]
 ---

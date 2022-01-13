@@ -4,19 +4,13 @@ subtitle: Elective
 layout: post
 modal-id: 6
 date: 2019-06-06
-# creativity-aesthetics: false
-# technology-realization: true
-# user-society: true
-# math-data-computing: true
-# business-entrepreneurship: true
-image: /reportMoralJustice.jpg
+image:
 thumbnail: /organisation-thumbnail.jpg
-alt: image-alt
+alt:
 documents: /20180625-essay-organisaties-uvh-cpcorvers_FINAL.pdf
 documents-name: Essay organisations in dutch
-project-date: June 2018
+project-date: 2018-06-01
 client: University of Humanistic studies<br>Ruud Kaulingfreks (teacher elective)
-# category: [ technology-realization, user-society,  math-data-computing, business-entrepreneurship]
 ---
 Observed from a humanistic point of view, what are organisations and how do they relate to society and individuals in a socio-political context?
 

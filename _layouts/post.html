@@ -3,16 +3,18 @@ layout: default
 ---
 {% for post in site.posts offset:0 limit:1 %}
 
-<img src="{{ site.pathtoimages }}{{ page.image }}" alt="image not supported" class="cellB-case">
+<!-- <img src="{{ site.pathtoimages }}{{ page.image }}" alt="" class="cellB-case"> -->
 
 {% if page.title %}
 <h2 class="case">{{ page.title }}</h2>
 {% endif %}
 
-{% assign date = page.date | date_to_string | date: "%B %Y" %}
+{% assign date = page.project-date | date_to_string | date: "%B %Y" %}
 {% if date %}
 <p class="case-small">{{ date }}</p>
 {% endif %}
+
+<img src="{{ site.pathtoimages }}{{ page.image }}" alt="" class="img-centered">
 
 <div class="case">
 	{{ content }}

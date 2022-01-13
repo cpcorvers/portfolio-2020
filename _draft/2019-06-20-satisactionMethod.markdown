@@ -1,5 +1,5 @@
 ---
-categroy:
+category:
   - project
   - tools
 title: Research on Satis-action
