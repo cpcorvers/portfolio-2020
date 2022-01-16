@@ -22,7 +22,7 @@ The System Constellation Play is used in the [Satis-Action method](https://www.s
 The Perception board is an instrument with two monitors and characters from the System Constellation Play Small. On a horizontal monitor a specific background is visualised and the characters are placed by a single professional on the horizontal monitor. This creates a specific constellation of the relevant actors in the network as perceived by the profesional. On a vertical monitor the same constellation is visualised from a landscape view. The different views give more perspectives on the constellation and thereby gives information for the professional to create a more acurate perception on the specific constellation of the case at hand.
 
 ### examples of use
-The Perception board is created during a studyproject and observed by experts and scolars during the universities Demoday for different applications as well. The digital demonstrator is not tested in a reallife case and now dismantled. The concept can be executed in an analog setting.
+The Perception board is created during a studyproject and observed by experts and scolars during the universities Demoday for different applications. The digital demonstrator is not tested in a reallife case and now dismantled. The concept can be executed in an analog setting.
 
 ![](/assets/images/tool-slide2.png)
 ###### Perception board & System Constellation Play XL customized by users
