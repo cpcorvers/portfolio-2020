@@ -4,18 +4,14 @@ subtitle: Elective / course
 layout: post
 modal-id: 7
 date: 2019-06-07
-# creativity-aesthetics: false
-# technology-realization: false
-# user-society: true
-# math-data-computing: true
-# business-entrepreneurship: false
 image:
 thumbnail: /servantofjustice-thumbnail.png
 alt: Servant of Justice
 documents-name: Paper Servant of justice as craftsmen
 project-date: 2019-02-01
-client: University of Humanistic studies<br>Ruud Meij (teacher elective)<br>Veiligheidshuis Zuid-Holland Zuid
-# category: [user-society, math-data-computing]
+client:
+  - University of Humanistic studies<br>Ruud Meij (teacher elective)
+  - Veiligheidshuis Zuid-Holland Zuid
 ---
 When is an action morally right for a professional and organisations in the context of collaborating organisations around a multi-problem family?
 

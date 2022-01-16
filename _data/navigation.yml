@@ -1,16 +1,10 @@
-# - name: Home
-#   link: /
 - name: Vision
   link: /vision/
 - name: Work
   link: /workportfolio/
-# - name: Workshops
-#   link: /workshops/
 - name: Techniques
   link: /techniques/
 - name: Tools
   link: /tools/
-# - name: Testimonials
-#   link: /testimonials/
 - name: About
   link: /about/

@@ -11,7 +11,8 @@ alt: OTHERs EYEs
 documents: /20190613-FMP-Report-v1.0.pdf
 documents-name: FMP report cpcorvers v1
 project-date: 2019-07-01
-client: Zorg- en Veiligheidshuis
+client:
+  - Zorg- en Veiligheidshuis
 ---
 How can design support a moral decision making process of individuals and organisations in specific wicked problem cases?
 

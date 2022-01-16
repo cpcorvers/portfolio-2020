@@ -10,7 +10,9 @@ alt:
 documents: /20180625-essay-organisaties-uvh-cpcorvers_FINAL.pdf
 documents-name: Essay organisations in dutch
 project-date: 2018-06-01
-client: University of Humanistic studies<br>Ruud Kaulingfreks (teacher elective)
+client:
+  - University of Humanistic studies
+  - Ruud Kaulingfreks (teacher elective)
 ---
 Observed from a humanistic point of view, what are organisations and how do they relate to society and individuals in a socio-political context?
 
